@@ -15,7 +15,7 @@ public class ContaTerminal {
         while (true) {
             System.out.print("Digite o número da Conta: ");
             try {
-                numero = scanner.nextInt();
+                numero = Integer.parseInt(scanner.nextLine());
                 break;
             } catch (InputMismatchException e) {
                 System.out.println("Erro: digite um número válido.");
@@ -23,17 +23,17 @@ public class ContaTerminal {
             }
         }
 
-        System.out.println("Por favor, digite o número da Agência: ");
+        System.out.print("Por favor, digite o número da Agência: ");
          agencia = scanner.nextLine();
 
-             scanner.nextLine();
+             
 
-        System.out.println("Digite o nome do cliente:");
+        System.out.print("Digite o nome do cliente:");
          nomeCliente = scanner.nextLine();
 
       
         while (true) {
-        System.out.println("Digite o saldo:");
+        System.out.print("Digite o saldo:");
         try {
          saldo = Double.parseDouble(scanner.nextLine());
          break;
