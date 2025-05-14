@@ -20,11 +20,31 @@ Após a entrada correta de todos os dados, uma mensagem de boas-vindas é exibid
 - Encapsulamento de dados na classe `ContaBancaria`
 - Exibição formatada de informações usando `printf`
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias Utilizadas
 
 - Java 8 ou superior
-- Editor: Visual Studio Code ou qualquer IDE Java (Eclipse, IntelliJ, etc.)
+- Scanner para entrada de dados no terminal
+- Git para controle de versão
 
+## Como Rodar o Projeto
+
+1. Clone o repositório para sua máquina local.
+   ```bash
+   git clone https://github.com/ArianeTrias/conta-bancaria-java.git
+   ```
+2. Compile os arquivos `.java` usando o compilador Java.
+   ```bash
+   javac ContaBancaria.java ContaTerminal.java
+   ```
+3. Execute o projeto.
+   ```bash
+   java ContaTerminal
+   ```
+
+## Observações
+
+- Caso o saldo informado seja inválido, o sistema pedirá para inserir um valor válido.
+- O sistema imprime a mensagem de boas-vindas com os dados da conta bancária criada.
 
 
 
